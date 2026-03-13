@@ -126,12 +126,12 @@ export default function Home() {
           <div className="flex h-full flex-col overflow-y-auto px-6 py-12 sm:px-10 md:px-16 lg:px-[6vw] xl:px-[8vw] [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             <div className="mx-auto flex w-full max-w-130 flex-1 flex-col items-center gap-12 text-center sm:items-start sm:text-left lg:gap-14">
               <div className="flex w-full flex-col items-center space-y-4 sm:items-start">
-                <Image
+                {/* <Image
                   src={carepractLogo}
                   alt="CarePract logo"
-                  className="h-[64px] w-auto mx-auto sm:mx-0"
+                  className="h-16 w-auto mx-auto sm:mx-0"
                   priority
-                />
+                /> */}
                 <p className="text-lg font-medium text-slate-900">
                   Our website is currently undergoing renovations.
                 </p>
@@ -161,7 +161,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <form className="flex w-full max-w-[520px] flex-col gap-3 sm:gap-4">
+              <form className="flex w-full max-w-130 flex-col gap-3 sm:gap-4">
                 <div ref={dropdownRef} className="relative">
                   <label htmlFor="country-trigger" className="sr-only">
                     Choose your country
@@ -355,7 +355,7 @@ export default function Home() {
             />
           </div>
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0)_0%,rgba(6,82,201,0.5)_88.56%)]" />
-          <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-[rgba(0,0,40,0.18)]" />
+          <div className="absolute inset-0 bg-linear-to-br from-transparent via-transparent to-[rgba(0,0,40,0.18)]" />
 
           <div className="relative flex h-full flex-col items-center justify-end px-8 pb-14 pt-28 text-center sm:px-12 md:px-16 lg:items-start lg:px-20 lg:text-left">
             <div className="max-w-xl space-y-6">
